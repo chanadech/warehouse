@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Menu</class>
+ <widget class="QDialog" name="Menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>769</width>
+    <height>501</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>769</width>
+    <height>501</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>769</width>
+    <height>501</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Menu{
+border-image:url(:/images/094 Cloudy Apple.png);
+}</string>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>50</y>
+     <width>581</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#label_2{
+border-image:url(:/images/69751223-industry-wallpapers-2.jpg)
+
+;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>0</y>
+     <width>841</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#label_3{
+border-image:url(:/images/minimalbg1.jpg)
+}
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>831</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>AXIS</family>
+     <pointsize>13</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:36pt; color:#fd8008;&quot;&gt;SELECT MENU&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>70</y>
+     <width>191</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>AXIS</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton{
+color:white;
+background-color:#F17F18;
+border-width:0px;
+border-radius:4px;
+}
+#pushButton:hover{
+background-color:#6BC3BB;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Deposit Products</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>170</y>
+     <width>191</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>AXIS</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton_2{
+color:white;
+background-color:#F17F18;
+border-width:0px;
+border-radius:4px;
+}
+#pushButton_2:hover{
+background-color:#6BC3BB;
+}
+</string>
+   </property>
+   <property name="text">
+    <string> Product Withdrawal</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>260</y>
+     <width>191</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>AXIS</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton_3{
+color:white;
+background-color:#F17F18;
+border-width:0px;
+border-radius:4px;
+}
+#pushButton_3:hover{
+background-color:#6BC3BB;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>View Products</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>350</y>
+     <width>191</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>AXIS</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton_4{
+color:white;
+background-color:#F17F18;
+border-width:0px;
+border-radius:4px;
+}
+#pushButton_4:hover{
+background-color:#6BC3BB;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Add-Money </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>440</y>
+     <width>191</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>AXIS</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton_5{
+color:white;
+background-color:#F17F18;
+border-width:0px;
+border-radius:4px;
+}
+#pushButton_5:hover{
+background-color:#C7C7C9;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Log out</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
